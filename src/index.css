@@ -19,3 +19,12 @@ code {
 .color_sub_title {
   color: #8f8989;
 }
+
+.full {
+  width: 100%;
+  height: 100%;
+}
+
+.font-bold {
+  font-weight: bold;
+}

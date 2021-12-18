@@ -8,19 +8,35 @@ export default function HeaderComponent() {
   const menu = () => {
     return (
       <MenuStyled>
-        <Menu.Item className="menu-item" key="Dự án">
+        <Menu.Item
+          className="menu-item"
+          key="Dự án"
+          onClick={() => navigate("/du-an")}
+        >
           Dự án
         </Menu.Item>
-        <Menu.Item className="menu-item" key="Nghiên cứu">
+        <Menu.Item
+          className="menu-item"
+          key="Nghiên cứu"
+          onClick={() => navigate("/nghien-cuu")}
+        >
           Nghiên cứu
         </Menu.Item>
         <Menu.Item className="menu-item" key="Về chúng tôi">
           Về chúng tôi
         </Menu.Item>
-        <Menu.Item className="menu-item" key="Liên hệ">
+        <Menu.Item
+          className="menu-item"
+          key="Liên hệ"
+          onClick={() => navigate("/lien-he")}
+        >
           Liên hệ
         </Menu.Item>
-        <Menu.Item className="menu-item" key="Tuyển dụng">
+        <Menu.Item
+          className="menu-item"
+          key="Tuyển dụng"
+          onClick={() => navigate("/tuyen-dung")}
+        >
           Tuyển dụng
         </Menu.Item>
       </MenuStyled>
