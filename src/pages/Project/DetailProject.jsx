@@ -41,13 +41,6 @@ export default function DetailProject() {
             return (
               <Col span={6} style={{ padding: "20px" }} key={idx}>
                 <Image src={img} height={200} />
-                {/* <div
-                  style={{
-                    backgroundImage: `url(${img})`,
-                    backgroundSize: "cover",
-                    height: 200,
-                  }}
-                /> */}
               </Col>
             );
           })}

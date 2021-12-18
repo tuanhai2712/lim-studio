@@ -17,9 +17,7 @@ export default function Project() {
                   backgroundSize: "cover",
                   height: 200,
                 }}
-                onClick={() =>
-                  navigate(`/nghien-cuu/chi-tiet?name=${item.name}`)
-                }
+                onClick={() => navigate(`/du-an/chi-tiet?name=${item.name}`)}
               />
               <div className="title-image">{item.name}</div>
             </Col>
