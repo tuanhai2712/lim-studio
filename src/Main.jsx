@@ -54,5 +54,5 @@ const ContentWrapper = styled.div`
   max-width: 1400px;
   width: 1400px;
   margin: 0px auto;
-  padding: 100px;
+  padding: 20px 100px;
 `;

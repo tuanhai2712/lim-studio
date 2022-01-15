@@ -6,6 +6,7 @@ import App from "./App";
 import { store } from "./state/index";
 import { Provider } from "react-redux";
 import "antd/dist/antd.css";
+import "react-slideshow-image/dist/styles.css";
 import reportWebVitals from "./reportWebVitals";
 ReactDOM.render(
   <React.StrictMode>
